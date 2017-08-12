@@ -1,0 +1,144 @@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@BEGIN_ITEM@@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_TIMESTAMP@@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: 1502443751536
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_STATE@@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: ServerState{games=[], reqRespHandlers=[], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@ACTION@@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='random'}
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_TIMESTAMP@@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: 1502443751557
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_STATE@@
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: ServerState{games=[], reqRespHandlers=[Thread[Thread-1,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:11 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@END_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@BEGIN_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: 1502443757058
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: ServerState{games=[], reqRespHandlers=[Thread[Thread-1,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@ACTION@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='random'}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: 1502443757071
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: ServerState{games=[], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@END_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@BEGIN_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: 1502443757080
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: ServerState{games=[], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@ACTION@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='sdfds'}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: 1502443757089
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@END_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@BEGIN_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: 1502443757094
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@ACTION@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='random'}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: 1502443757109
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@END_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@BEGIN_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: 1502443757149
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@ACTION@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='@ERROR_GROUP'}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: 1502443757157
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main], Thread[Thread-3,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@END_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@BEGIN_ITEM@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: 1502443757171
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@PRE_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main], Thread[Thread-3,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: @@ACTION@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
+INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='random'}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_TIMESTAMP@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: 1502443757179
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@POST_STATE@@
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[Thread-1,5,main], Thread[Thread-2,5,main], Thread[Thread-3,5,main], Thread[Thread-4,5,main]], tcpPort=29999, turnTimeout=300000, isServerListening=true}
+ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
+INFORMAZIONI: @@END_ITEM@@

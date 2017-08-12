@@ -8,31 +8,41 @@ class LogParser:
         self.target_directory = target_directory
         self.action_group = action_group
         self.timestamps = []
+        self.parse()
+        self.write_results()
 
     def verify_action(self, action):
         right_part_group_identifier = action.split("actionGroupIdentifier='")[1]
-        action_group_identifier = right_part_group_identifier.split("',")[0]
+        action_group_identifier = right_part_group_identifier.split("'")[0]
         return action_group_identifier == self.action_group
 
     def parse(self):
-        need_to_check_timestamp = False
-        need_to_check_action = False
+        need_to_check_timestamp_1 = False
+        need_to_check_timestamp_2 = False
+        need_to_check_action_1 = False
+        need_to_check_action_2 = False
         timestamps = []
         tmp_timestamp = None
         with open(self.log_file_path) as f:
             for line in f:
                 if "@@PRE_TIMESTAMP@@" in line:
-                    need_to_check_timestamp = True
-                elif need_to_check_timestamp is True:
+                    need_to_check_timestamp_1 = True
+                elif need_to_check_timestamp_1 is True:
+                    need_to_check_timestamp_2 = True
+                    need_to_check_timestamp_1 = False
+                elif need_to_check_timestamp_2 is True:
                     tmp_timestamp = line.split("INFORMAZIONI: ")[1]
-                    need_to_check_timestamp = False
+                    need_to_check_timestamp_2 = False
                 elif "@@ACTION@@" in line:
-                    need_to_check_action = True
-                elif need_to_check_action is True:
+                    need_to_check_action_1 = True
+                elif need_to_check_action_1 is True:
+                    need_to_check_action_2 = True
+                    need_to_check_action_1 = False
+                elif need_to_check_action_2 is True:
                     if self.verify_action(line.split("INFORMAZIONI: ")[1]) is True:
-                        timestamps.append(tmp_timestamp)
-                    need_to_check_action = False
-        self.timestamps = tmp_timestamp
+                        timestamps.append(tmp_timestamp[:len(tmp_timestamp)-1])
+                    need_to_check_action_2 = False
+        self.timestamps = timestamps
 
     def write_results(self):
         with open(os.path.basename(self.log_file_path) + "_err_timestamps.txt", "w") as f:
