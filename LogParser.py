@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-import os.path
+import os
 
 
 class LogParser:
@@ -16,6 +16,9 @@ class LogParser:
         right_part_group_identifier = action.split("actionGroupIdentifier='")[1]
         action_group_identifier = right_part_group_identifier.split("'")[0]
         return action_group_identifier == self.action_group
+
+    def extractErrorId(self, action):
+        return action.split("id=")[1].split(",")[0]
 
     def parse(self):
         need_to_check_timestamp_1 = False
@@ -40,8 +43,12 @@ class LogParser:
                     need_to_check_action_2 = True
                     need_to_check_action_1 = False
                 elif need_to_check_action_2 is True:
-                    if self.verify_action(line.split("INFORMAZIONI: ")[1]) is True:
-                        timestamps.append(tmp_timestamp[:len(tmp_timestamp)-1])
+                    actionLine = line.split("INFORMAZIONI: ")[1]
+                    if self.verify_action(actionLine) is True:
+                        timestamps.append({
+                            "timestamp": tmp_timestamp[:len(tmp_timestamp) - 1],
+                            "error_id": self.extractErrorId(actionLine)
+                        })
                     need_to_check_action_2 = False
         self.timestamps = timestamps
 
