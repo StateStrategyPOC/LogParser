@@ -45,10 +45,7 @@ class LogParser:
                 elif need_to_check_action_2 is True:
                     actionLine = line.split("INFORMAZIONI: ")[1]
                     if self.verify_action(actionLine) is True:
-                        timestamps.append({
-                            "timestamp": tmp_timestamp[:len(tmp_timestamp) - 1],
-                            "error_id": self.extractErrorId(actionLine)
-                        })
+                        timestamps.append(tmp_timestamp[:len(tmp_timestamp) - 1]+" "+str(self.extractErrorId(actionLine)))
                     need_to_check_action_2 = False
         self.timestamps = timestamps
 
