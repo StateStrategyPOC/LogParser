@@ -27,6 +27,7 @@ class LogParser:
         need_to_check_action_2 = False
         timestamps = []
         tmp_timestamp = None
+        idDict = {}
         with open(self.log_file_path) as f:
             for line in f:
                 if "@@PRE_TIMESTAMP@@" in line:
@@ -45,7 +46,10 @@ class LogParser:
                 elif need_to_check_action_2 is True:
                     actionLine = line.split("INFORMAZIONI: ")[1]
                     if self.verify_action(actionLine) is True:
-                        timestamps.append(tmp_timestamp[:len(tmp_timestamp) - 1]+" "+str(self.extractErrorId(actionLine)))
+                        id = self.extractErrorId(actionLine)
+                        if idDict.get(id) is None:
+                            idDict[id] = True
+                            timestamps.append(tmp_timestamp[:len(tmp_timestamp) - 1])
                     need_to_check_action_2 = False
         self.timestamps = timestamps
 

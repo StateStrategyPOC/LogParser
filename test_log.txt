@@ -131,7 +131,7 @@ INFORMAZIONI: ServerState{games=[server.Game@594972de], reqRespHandlers=[Thread[
 ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
 INFORMAZIONI: @@ACTION@@
 ago 11, 2017 11:29:17 AM server_store.StoreLogger logPreStatePropagation
-INFORMAZIONI: sampleAction{actionIdentifier='random',actionGroupIdentifier='random'}
+INFORMAZIONI: sampleAction{id=100,actionIdentifier='random',actionGroupIdentifier='@ERROR_GROUP'}
 ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
 INFORMAZIONI: @@POST_TIMESTAMP@@
 ago 11, 2017 11:29:17 AM server_store.StoreLogger logPostStatePropagation
